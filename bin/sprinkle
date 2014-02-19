@@ -29,6 +29,7 @@ Sprinkle
 ========
 
 http://github.com/sprinkle-tool/sprinkle
+fork used: http://github.com/NovapaX/sprinkle
 
 Sprinkle is a software provisioning tool you can use to build remote servers with. eg. to
 install a Rails or Merb stack on a brand new slice directly after its been created. It uses
