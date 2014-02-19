@@ -156,7 +156,7 @@ module Sprinkle
 
       def normalize(all, &block)
         all = all.flatten.uniq {|x| [x.name, x.version, x.opts] }
-        cloud_info "--> Normalized installation order for all packages (with options): #{all.collect { |x| x.name + (x.opts.empty? ? "" : x.opts.to_s)}.join(', ')}\n"
+        cloud_info "--> Normalized installation order for all packages (with options): #{all.collect { |x| x.name.to_s + (x.opts.empty? ? "" : x.opts.to_s)}.join(', ')}\n"
         all
       end
 
